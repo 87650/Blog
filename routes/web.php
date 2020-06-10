@@ -42,10 +42,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-<form action="Controllers\NetController" method="POST">
-            <input type="text" name="name_recipient">
-            <input type="text" name="mess">
-
-        <input type="submit" name="mes">
-
-        </form>
